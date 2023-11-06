@@ -4,6 +4,7 @@ import { FiSmartphone, FiMonitor } from 'react-icons/fi';
 import { Carousel } from 'react-bootstrap';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import Loja from './loja'; 
+import Carro from './carro';
 import './App.css';
 
 
@@ -18,7 +19,7 @@ function TecnologiasCarousel() {
       <Carousel.Item>
         <img
           className="d-block w-100"
-          src="https://navegantes.net.br/wp-content/uploads/2020/06/2019-01-21.png"
+          src="https://s2-techtudo.glbimg.com/fgISkUGvWWkmPusdzBqo0q4or1I=/0x0:3876x2579/984x0/smart/filters:strip_icc()/i.s3.glbimg.com/v1/AUTH_08fbf48bc0524877943fe86e43087e7a/internal_photos/bs/2022/g/v/z6kOIMTGqdKvsBDmfoBg/cadeiragamer.jpeg"
           alt="Primeira tecnologia"
           style={imageStyles} // Aplicando estilos à imagem
         />
@@ -26,7 +27,7 @@ function TecnologiasCarousel() {
       <Carousel.Item>
         <img
           className="d-block w-100"
-          src="https://weduu.com/wp-content/uploads/2022/11/tecnologia-para-aumentar-as-vendas.jpg"
+          src="https://www.tecnobreak.com/wp-content/uploads/8-de-los-10-celulares-mas-vendidos-en-el-mundo.png"
           alt="Segunda tecnologia"
           style={imageStyles} // Aplicando estilos à imagem
         />
@@ -34,7 +35,7 @@ function TecnologiasCarousel() {
       <Carousel.Item>
         <img
           className="d-block w-100"
-          src="https://blog.cielo.com.br/wp-content/uploads/2022/03/cielo-tecnologia-inovacao-negocios.jpg"
+          src="https://img.freepik.com/fotos-gratis/homem-caucasiano-jogando-acao-no-console-da-tv_482257-21286.jpg"
           alt="Terceira tecnologia"
           style={imageStyles} // Aplicando estilos à imagem
         />
@@ -42,7 +43,7 @@ function TecnologiasCarousel() {
       <Carousel.Item>
         <img
           className="d-block w-100"
-          src="https://geofusion.com.br/wp-content/uploads/2015/10/GettyImages-519515855-1-e1612211919528.jpg"
+          src="https://assets.nintendo.com/image/upload/f_auto/q_auto/dpr_2.0/c_scale,w_400/ncom/en_US/switch/site-design-update/oled-model-promo"
           alt="Quarta tecnologia"
           style={imageStyles} // Aplicando estilos à imagem
         />
@@ -96,6 +97,7 @@ function App() {
     <Router>
       <Routes>
         <Route path="/" element={<Home />} />
+        <Route path="/carro" element={<Carro />} />
         <Route path="/loja" element={<Loja />} /> {/* Rota para o componente Loja */}
       </Routes>
     </Router>

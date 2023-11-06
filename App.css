@@ -32,6 +32,25 @@
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
 }
 
+/* Carro.css */
+
+.carro-container {
+  width: 100vw; /* Largura igual à largura da viewport */
+  height: 100vh; /* Altura igual à altura da viewport */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.carro-container img {
+  width: 100%; /* Imagem ocupa toda a largura do container */
+  height: 100%; /* Imagem ocupa toda a altura do container */
+  object-fit: cover; /* Ajusta a imagem para preencher o container */
+  object-fit: contain; /* Mantém a proporção original da imagem */
+
+}
+
+
 h2 {
   margin-top: 0;
 }
@@ -40,3 +59,5 @@ p {
   font-size: 1.2rem;
   line-height: 1.6;
 }
+
+
