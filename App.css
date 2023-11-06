@@ -1,0 +1,42 @@
+.App {
+  text-align: center;
+  padding: 2rem;
+}
+
+.App-header {
+  background-color: #282c34;
+  color: white;
+  padding: 2rem;
+}
+
+.Info-section {
+  display: flex;
+  justify-content: center;
+  gap: 2rem;
+  margin: 2rem 0;
+}
+
+.Icon-container {
+  text-align: center;
+}
+
+.Icon {
+  font-size: 3rem;
+  margin-bottom: 1rem;
+}
+
+.Data-section {
+  background-color: #f0f0f0;
+  padding: 2rem;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+h2 {
+  margin-top: 0;
+}
+
+p {
+  font-size: 1.2rem;
+  line-height: 1.6;
+}
